@@ -1,6 +1,5 @@
 # Raspberri Pi Smart Surveillance Camera
 Repository containing code and description of Pi project
-One Paragraph of project description goes here
 
 ## Getting Started
 
@@ -41,8 +40,9 @@ To get this project working you'll need to download and install it on your raspb
 │   |   ├──...
 └── ...
 ```
-
-
+## Usage
+After initializing a new conversation with a bot you'll see next menu:
+<img align="right" src="https://github.com/Vivikar/raspberry-pi-surv_proj/blob/master/readme_data/main_menu.jpg" width="100">
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
