@@ -137,9 +137,7 @@ def call_bb(call):
 
 
 
-if __name__ == '__main__':
-    #bot.polling(none_stop=True, timeout=123)
-    
+if __name__ == '__main__':    
     while True:
         try:
                 bot.polling(none_stop=True, timeout=123)

@@ -1,5 +1,3 @@
-#from imutils import paths
-#import shutil
 from imutils.object_detection import non_max_suppression
 import numpy as np
 from picamera.array import PiRGBArray
