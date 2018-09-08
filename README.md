@@ -1,11 +1,7 @@
 # Raspberri Pi Smart Surveillance Camera
 Repository containing code and description of Pi project
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
+## Prerequisites
 
 What libraries you'll need to install the software
 ```
@@ -23,7 +19,7 @@ $sudo apt-get install mysql-server
 ```
 You'll also need opencv installed on your machine. You can see how to do that [here](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
 
-### Installing
+## Installing
 To get this project working you'll need to download and install it on your raspberry pi. Project location sholuld be next:
 ```
 /
@@ -42,9 +38,13 @@ To get this project working you'll need to download and install it on your raspb
 ```
 ## Usage
 After initializing a new conversation with a bot you'll see next menu:
-<img align="right" src="https://github.com/Vivikar/raspberry-pi-surv_proj/blob/master/readme_data/main_menu.jpg" width="100">
-## License
+<img align="center" src="https://github.com/Vivikar/raspberry-pi-surv_proj/blob/master/readme_data/main_menu.jpg" width="300">  
+Send photo 📷 - send captured frame to user  
+Send video 🎥 - opens new menu, where you can choose lenght of viedo to be sent    
+<img align="center" src="https://github.com/Vivikar/raspberry-pi-surv_proj/blob/master/readme_data/photo_2018-09-07_17-34-44.jpg" width="300">  
+Save images 📁 - saves all images from MySQL table to local directory  
+Pi Settings ⚙ - opens new menu with Pi Settings    
+<img align="center" src="https://github.com/Vivikar/raspberry-pi-surv_proj/blob/master/readme_data/photo_2018-09-07_17-18-08.jpg" width="300">  
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
+Delete temp files 🗑 - deletes all files from detect_frames folder (deleting temp data of current surveillance)  
+Truncate SQL table ✂ - deletes all images from SQL table (deleting data of all surveillances)
